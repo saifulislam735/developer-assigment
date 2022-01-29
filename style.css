@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    
+}
+.span-color{
+    color: orange;
+}
+h1{
+font-family: 'Playfair Display', serif;
+font-family: 'Tinos', serif;
+font-size: 60px;
+border-left: 7px solid;
+border-image: inherit(blue,cyan);
+border-image-slice: 1;
+}
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.link-button{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(247, 231, 231);
+    background-color: tomato;
+    padding: 15px 40px;
+    border-radius: 3px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 65px;
+}
+section{
+    display: flex;
+}
+.half-width img{
+    width: 80%;
+    height: 600px;
+}
+
