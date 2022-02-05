@@ -1,10 +1,18 @@
 body{
-    margin: 50px 150px 150px;
     font-family: sans-serif;
     
 }
-.span-color{
+section{
+    margin: 50px 150px 150px;
+}
+.span-color-orange{
     color: orange;
+}
+.span-color-blue{
+    color: rgb(24, 24, 58);
+}
+.span-color-red{
+    color: brown;
 }
 h1{
     font-family: 'Playfair Display', serif;
@@ -13,7 +21,6 @@ h1{
     border-left: 5px solid tomato;
 }
 h2{
-    color: rgb(24, 24, 58);
     font-size: 60px;
 }
 h3{
@@ -82,6 +89,7 @@ p{
 }
 .details-section-pic img{
     height: 500px;
+
 }
 .details-section-info-1 a{
     padding: 15px 50px;
@@ -102,4 +110,35 @@ p{
 }
 .details-section-info-2{
     margin-right: 80px;
+}
+.application-build-heading{
+    text-align: center;
+}
+.application-pic{
+    object-fit: fill;
+}
+#application-info{
+    padding-top: 100px;
+    padding-bottom:100px ;
+}
+#application-info a{
+    color: rgb(192, 185, 185);
+    text-decoration: none;
+    background-color: tomato;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(17, 17, 17);
+    height: 250px;
+    padding-top: 10px;
+    
+
+}
+footer h5{
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Tinos', serif;
 }
