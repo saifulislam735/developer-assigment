@@ -16,6 +16,7 @@ section{
 }
 h1{
     font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
     font-family: 'Tinos', serif;
     font-size: 80px;
     border-left: 5px solid tomato;
@@ -32,6 +33,10 @@ h4{
     font-size: 35px;
     font-weight: bold;
 }
+h5{ 
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+    }
 section{
     margin-bottom: 100px;
 }
@@ -52,6 +57,7 @@ p{
     display: flex;
 }
 .half-width img{
+    padding-left: 100px;
     width: 80%;
     height: 600px;
 }
@@ -136,9 +142,4 @@ footer{
     padding-top: 10px;
     
 
-}
-footer h5{
-    font-size: 45px;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Tinos', serif;
 }
