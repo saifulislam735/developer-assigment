@@ -14,7 +14,7 @@ h1{
 }
 h2{
     color: rgb(24, 24, 58);
-    font-size: 70px;
+    font-size: 60px;
 }
 h3{
     color: rgb(43, 39, 39);
@@ -29,7 +29,7 @@ section{
     margin-bottom: 100px;
 }
 p{
-    font-size: 20px;
+    font-size: 24px;
 }
 .link-button{
     text-decoration: none;
@@ -79,16 +79,27 @@ p{
 }
 .details-section-pic{
     width: 40%;
-    background-image: url(images/);
 }
 .details-section-pic img{
     height: 500px;
 }
-.details-section-info a{
+.details-section-info-1 a{
     padding: 15px 50px;
     text-decoration: none;
     background-color: tomato;
     color: rgb(245, 234, 234);
     border-radius: 5px;
 }
-
+.details-section-info-1{
+    margin-left: 80px;
+}
+.details-section-info-2 a{
+    padding: 15px 50px;
+    text-decoration: none;
+    background-color: tomato;
+    color: rgb(245, 234, 234);
+    border-radius: 5px;
+}
+.details-section-info-2{
+    margin-right: 80px;
+}
